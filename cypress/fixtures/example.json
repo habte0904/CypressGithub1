@@ -1,0 +1,8 @@
+{
+  "name": ["Alex","Jack","Ben","Ivory","abebe"],
+  "email": "abebe@gmail.com",
+  "password":"abebe123",
+  "gender":"Female",
+  "position":["Engineer","Mechanic","Receptionist"]
+  
+}

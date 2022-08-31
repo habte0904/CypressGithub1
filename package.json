@@ -1,0 +1,17 @@
+{
+  "name": "cypressqa13",
+  "version": "1.0.0",
+  "description": "To test browser using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "QA 13",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.0.2"
+  },
+  "dependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
