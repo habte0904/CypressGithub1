@@ -23,8 +23,11 @@ describe("Handling Iframe and Fixture",()=>{
     it.only("Fixture",()=>{
         cy.visit("https://rahulshettyacademy.com/angularpractice/")
         cy.get("input[name='name']").eq(0).type(dt.name)
-        cy.get("input[name='email']").type(dt.email)
-        cy.get('select').select(dt.gender).should('have.value',dt.gender)
+        cy.get("input[name='email']")
+            .type(dt.email)
+        cy.get('select')
+            .select(dt.gender)
+            .should('have.value',dt.gender)
      
 
     })
